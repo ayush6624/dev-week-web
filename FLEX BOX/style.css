@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.parent{
+  height: 100vh;
+  display: flex;
+  
+  
+  /* flex-direction: row;
+   flex-wrap: wrap;
+   flex flow: row wrap;
+   // Combination of both
+
+   justify-content: flex-start;
+   defines the alignment along main axis 
+
+  align-items: flex-start; 
+  defines the alignment along the cross axis
+
+  align-content: space-between; 
+
+
+  */
+  
+}
+
+.child1{
+  width: 200px;
+  height: 200px;
+  background: red;
+  
+
+  /* order: 0;
+  flex-grow: 8; 
+  flex-shrink: 2;
+  align-self: flex-start;*/
+   
+}
+.child2{
+  width: 200px;
+  height: 200px;
+  background: yellow;
+}
+.child3{
+  width: 200px;
+  height: 200px;
+  background:green;
+}
+
+.child4{
+  width: 200px;
+  height: 200px;
+  background: blue;
+   
+}
